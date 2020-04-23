@@ -17,7 +17,7 @@ class RestaurantsController < ApplicationController
     @restaurant.save
 
     # no need for app/views/restaurants/create.html.erb
-    redirect_to restaurant_path(@restaurant)
+    redirect_to restaurants_path
   end
 
   private
